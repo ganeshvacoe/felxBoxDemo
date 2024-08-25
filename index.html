@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Flex Box</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <style>
+            .card{
+                width:190px;
+                border:4px double black;
+                border-radius:10px;
+                margin: 5px;
+                 background-color: white;
+        
+            }
+            .card-img{
+                margin:3px;
+                height:120px;
+                width:185px;
+                border-radius:7px 7px 0 0;
+            }
+            .cards-container{
+                background-color: gray;
+                display:Flex;
+                flex-direction: row-reverse;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+                height: 450px;
+                
+            }
+            .title{
+               text-align: center;
+               margin:25px;
+            }
+           
+        </style>
+    </head>
+    <body>
+    <h1 class="title">Flex box Assignment</h1>
+        <div class="cards-container">
+            <div class="card">
+                <img src="./Images/1.png" alt="" class="card-img">
+                <h2 class="card-title">Tom and Jerry</h2>
+            </div>
+            <div class="card">
+                <img src="./Images/2.jpg" alt="" class="card-img">
+                <h2 class="card-title">Tom and Jerry</h2>
+            </div>
+            <div class="card">
+                <img src="./Images/3.webp" alt="" class="card-img">
+                <h2 class="card-title">Tom and Jerry</h2>
+            </div>
+            <div class="card">
+                <img src="./Images/4.jpg" alt="" class="card-img">
+                <h2 class="card-title">Tom and Jerry</h2>
+            </div>
+        </div>
+    
+    </body>
+</html>
