@@ -1,0 +1,39 @@
+.card1{
+    width:190px;
+    border:4px double black;
+    border-radius:10px;
+    margin: 5px;
+     background-color: white;
+
+}
+.card-img1{
+    margin:3px;
+    height:120px;
+    width:185px;
+    border-radius:7px 7px 0 0;
+}
+.cards-container1{
+    background-color: gray;
+    display:Flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+    flex-wrap: wrap;
+    height: 450px;
+    
+}
+
+.cards-container2{
+    background-color: gray;
+    display:Flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    height: 450px;
+    
+}
+.title1{
+    text-align: center;
+    margin:25px;
+ }
